@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 50vh;
+    transform: translateY(-25%);
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.container-2{
+    max-height: 50px;
+}
+
+.carousel{
+    max-width: 100px;
+}
