@@ -16,6 +16,8 @@ img{
     max-height: 50px;
 }
 
-.carousel{
+body #carousel{
+    display: flex;
+    flex-direction: column;
     max-width: 100px;
 }
