@@ -23,6 +23,15 @@ const text = [
 ]
 
 
-for ( let i=0; i < items.length; i++){
+const containerLeft = document.getElementsByClassName("container")[0];
+const containerRight = document.getElementsByClassName("container")[1];
+console.log(containerLeft, containerRight)
 
+for ( let i=0; i < items.length ; i++){
+    const div = document.createElement("div")
+    containerRight.append(items[i])
+    containerRight.append(div)
+    //console.log(container)
+    //nuovoDiv = div.append(items[i])
+    //console.log(nuovoDiv)
 }
