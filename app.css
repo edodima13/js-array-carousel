@@ -6,18 +6,23 @@ body{
 }
 
 img{
-    width: 100%;
     object-fit: cover;
     object-position: center;
     display: block;
+    width: 100%;
 }
 
-.container-2{
-    max-height: 50px;
+#primocontainer{
+    height: 259px;
 }
 
 body #carousel{
     display: flex;
     flex-direction: column;
     max-width: 100px;
+    height: 253px;
+}
+
+body #carousel img{
+    height: 51px;  
 }

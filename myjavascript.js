@@ -25,13 +25,19 @@ const items = [
     const containerLeft = document.getElementsByClassName("container")[0];
     const containerRight = document.getElementsByClassName("container")[1];
 
-    
+    const nuovaImgNuovoDiv = document.createElement("img")
+    nuovaImgNuovoDiv.src = items[0]
     const nuovoDiv = document.createElement("div")
-    nuovoDiv.append(items[0])
+    containerLeft.append(nuovoDiv)
+    nuovoDiv.append(nuovaImgNuovoDiv)
 
 for ( let i=0; i < items.length ; i++){
     const div = document.createElement("div")
-    containerLeft.append(nuovoDiv)
     containerRight.append(div)
-    div.append(items[i])    
+    const nuovaImg = document.createElement('img');
+    nuovaImg.src = items[i];
+    div.append(nuovaImg);   
 }
+
+
+
